@@ -301,3 +301,31 @@ dialog::backdrop {
     max-inline-size: 198px;
   }
 }
+
+.filter-blur {
+  filter: blur(2px);
+}
+
+.filter-grayscale {
+  filter: grayscale(100%);
+}
+
+.filter-sepia {
+  filter: sepia(100%);
+}
+
+.filter-saturate {
+  filter: saturate(200%);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(90deg);
+}
+
+.filter-invert {
+  filter: invert(100%);
+}
+
+.filter-brightness {
+  filter: brightness(150%);
+}
